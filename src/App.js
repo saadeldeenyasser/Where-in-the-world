@@ -4,14 +4,14 @@ import './output.css';
 import Header from './Header';
 import Main from './Main';
 import Country from './Country';
-import { useTheme } from "./context/themeContext";
+
 
 function App() {
   const [countries, setCountries] = useState([]);
   const [filtered,setFiltered]=useState([])
   const [search, setSearch] = useState("");
   const [select, setSelect] = useState("");
-  const{isDark,dStyle,lStyle,toggleTheme}=useTheme();
+  
   
   
 
