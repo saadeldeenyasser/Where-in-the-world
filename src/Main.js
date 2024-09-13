@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useTheme } from "./context/themeContext";
 
 const Main = ({ countries, setSelect, select, setSearch, search }) => {
-  const [isDark,dStyle,lStyle]=useTheme();
+  const {isDark,dStyle,lStyle}=useTheme();
 
   return countries.length > 0 ? (
     <main id="main">
