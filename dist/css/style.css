@@ -172,13 +172,13 @@ button {
 #country #details #full {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 400px;
-  height: 300px;
+  width: 550px;
+  height: 350px;
 }
 #country #details #content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 60%;
+  width: 50%;
   color: var(--textColor);
 }
 #country #details #content h2 {

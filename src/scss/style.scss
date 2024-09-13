@@ -162,13 +162,13 @@ button {
     justify-content: space-between;
     #full {
       object-fit: cover;
-      width: 400px;
-      height: 300px;
+      width: 550px;
+      height: 350px;
     }
     #content {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      width: 60%;
+      width: 50%;
       color:var(--textColor);
       h2 {
         grid-column: 1/3;
