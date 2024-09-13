@@ -4,20 +4,12 @@ const ThemeContext = createContext();
 
 const ThemeProvider = ({children}) => {
   const [isDark, setIsDark] = useState(true);
-  const dStyle = {
-    backgroundColor: "#f0f0f0",
-    color: "#000",
-  };
-  const lStyle = {
-    backgroundColor: "#000",
-    color: "#fff",
-  };
   const toggleTheme=()=>{
     setIsDark(!isDark);
   }
 
   return (
-    <ThemeContext.Provider value={{isDark,toggleTheme,dStyle,lStyle}}>
+    <ThemeContext.Provider value={{isDark,toggleTheme}}>
      {children}
      </ThemeContext.Provider>
   )}
